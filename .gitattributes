@@ -5,6 +5,10 @@
 *.html diff=html
 *.md diff=markdown
 *.php diff=php
+*.cpp text eol=lf
+*.h text eol=lf
+*.sh text eol=lf
+*.exe binary
 
 /.github export-ignore
 CHANGELOG.md export-ignore
