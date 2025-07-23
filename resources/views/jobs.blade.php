@@ -3,11 +3,11 @@
         Jobs Page
     </x-slot:heading>
 
-    <ul>
+    <ul class="list-disc">
         @foreach($jobs as $job)
             <li>
                 <a href="/job/{{ $job['id'] }}" class="text-blue-500 hover: underline">
-                    <strong>{{ $job['title'] }}</strong> having a salary of: BDT {{ $job['salary'] }}/= per year.
+                    <strong>{{ $job['title'] }}</strong>
                 </a>
             </li>
         @endforeach
