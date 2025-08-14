@@ -5,6 +5,6 @@
     <h2 class="font-bold text-lg">{{ $job['title'] }}</h2>
 
     <p>
-        This job pays {{ $job['salary'] }} per year.
+        This job offered by <strong>{{ $employerName }}</strong> with a good salary of $<strong>{{ $job['salary'] }}</strong>/= per year.
     </p>
 </x-layout>
